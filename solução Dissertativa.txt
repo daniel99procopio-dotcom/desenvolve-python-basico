@@ -1,0 +1,32 @@
+Solução Dissertativa (Descrição do Algoritmo)
+
+Primeiramente o algoritmo deve solicitar ao usuário um valor inteiro n, que representa o número que será multiplicado por 9.
+
+Após a leitura do valor, inicia-se o processamento utilizando a regra do truque da tabuada do 9. O algoritmo calcula dois valores:
+
+O primeiro dígito (dezena) é obtido pela operação n − 1.
+
+O segundo dígito (unidade) é obtido pela operação 10 − n.
+
+Em seguida, o resultado final da multiplicação é calculado multiplicando o primeiro dígito por 10 e somando com o segundo dígito, conforme a fórmula:
+
+9
+×
+𝑛
+=
+(
+𝑛
+−
+1
+)
+×
+10
++
+(
+10
+−
+𝑛
+)
+9×n=(n−1)×10+(10−n)
+
+Por fim, o algoritmo exibe na tela o resultado da multiplicação de 9 por n.
